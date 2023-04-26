@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #247A6B;
+}
+
+body .MenuPrincipal {
+    background: #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+}
+
+body .MenuPrincipal .logo {
+    border-radius: 5px;
+    height: 62px;
+    width: 150px;
+}
+
+body .MenuPrincipal .logo img {
+    vertical-align: top;
+    width: 100px;
+}
+
+body .MenuPrincipal .MenuItems {
+    align-items: center;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 54px 0 0;
+    width: 250px;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    color: #ffffff;
+}
+
+body .MenuPrincipal .MenuItems .Boton {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+body .MenuPrincipal > img .menuHamburguer{
+    display: none;
+}
+
+body .Texto > h1 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 10px;
+    color: #ffffff;
+}
+
+body .Gallery{
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body .Gallery .Imagen > img{
+    width: 400px;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    gap: 1px;
+}
+
+body .Footer {
+    background: #120d25;
+    padding: 60px 580px;
+
+}
+
+   /*left*/
+
+body .Footer .left {
+
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+body .Footer .left .Logo {
+    border-radius: 5px;
+    height: 200px;
+
+}
+    
+body .Footer .left .Logo > img {
+    width: 160px;
+    vertical-align: top;
+}
+    
+body .Footer .left > p{
+    color: #f1f1f1;
+    padding: 10px 0;
+}
+    
+body .Footer .Aplications{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+body .Footer .Aplications > span{
+
+    color: #f1f1f1;
+    display: flex;
+    gap: 30px;
+}
+
+body .Footer .Aplications > span img{
+    width: 25px;
+    margin: 0 12px;
+    padding: 10px 0;
+}
+
+body .Footer .DB {
+    background: #333333;
+    padding: 10px 675.5px;
+    border: 2px solid #000000;
+    display: flex;
+}
